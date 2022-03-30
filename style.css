@@ -273,11 +273,16 @@ width: 100%;
   background-image: var(--hero-image);
   background-repeat: none;
   background-size: cover;
-  background-position: center;
+  background-position: 60% center;
   background-attachment: var(--hero-attachment);
   width: 100%;
   height: 100vh;
   
+}
+
+.hero-image-content{
+  width: 100%;
+  min-width: 320px;
 }
 
 .hero-image-opacity{
